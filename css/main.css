@@ -12,16 +12,17 @@ body {
 	padding: 0 5%;
 }
 
+.app-section {
+  float: left;
+  margin-bottom: 20px;
+}
+
 a {
 	text-decoration: none;
 }
 
 img {
 	max-width: 100%
-}
-
-h3 {
-  margin: 0 0 1em 0;
 }
 
 /******************************************
@@ -41,7 +42,7 @@ header {
 }
 
 h1 {
-	font-family: 'Changa One', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
 	margin: 15px 0;
 	font-size: 1.75em;
 	font-weight: normal;
@@ -51,9 +52,15 @@ h1 {
 h2 {
 	font-size: 0.75m;
 	margin: -5px 0 0;
-	font-weight: normal;
+	font-weight: normal;  
+  font-family: 'Shadows Into Light', cursive;
 }
 
+h3 {
+  margin: 0 0 1em 0;
+  color: #62CDF9;
+  font-family: 'Shadows Into Light', cursive;
+}
 
 
 /******************************************
@@ -79,6 +86,7 @@ nav li {
 nav a {
   font-weight: 800;
   padding: 15px 10px;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 
@@ -105,13 +113,13 @@ footer {
 PAGE: PORTFOLIO
 *******************************************/
 
-#gallery {
+.gallery {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-#gallery li {
+.gallery li {
 	float: left;
 	width: 45%;
 	margin: 2.5%;
@@ -119,11 +127,15 @@ PAGE: PORTFOLIO
   color: #bdc3c7;
 }
 
-#gallery li a p {
+.gallery li a p {
   margin:0;
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
+}
+
+.gallery li img {
+  background: #fff;
 }
 
 
@@ -159,16 +171,16 @@ PAGE: CONTACT
   margin: 0 0 10px;
 }
 
-.contact-info li.phone a {
-  background-image: url('../img/phone.png');
+.contact-info li.linkedin a {
+  background-image: url('../img/linkedin.png');
 }
 
 .contact-info li.mail a {
   background-image: url('../img/mail.png');
 }
 
-.contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+.contact-info li.github a {
+  background-image: url('../img/github.png');
 }
 
 /******************************************
@@ -183,13 +195,13 @@ body {
 
 /* green header */
 header {
-	background: #6ab47b;
-	border-color: #599a68;
+	background: #62CDF9;
+	border-color: #1C61DF;
 }
 
 /* nav background on mobile */
 nav {
-	background: #599a68;
+	background: #1C61DF;
 }
 
 /* logo text */
@@ -199,7 +211,7 @@ h1, h2 {
 
 /* links */
 a {
-	color: #6ab47b;
+	color: #5BCAFF;
 }
 
 /* nav link */
@@ -209,5 +221,5 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-	color: #32673f;
+	color: #2683F1;
 }
